@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: url('imagens/background01.jpg');
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+.cabecalho-imagem{
+    width: 200px;
+    
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 10px;
+}
+.cabecalho-item{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400; 
+    color: white;
+    font-size: 23px;
+    padding: 8px;
+}
+.cabecalho-item:hover{
+    background-color: #606060;
+    text-decoration: underline .3px;
+}
+.conteudo{
+    border-top:.5px solid rgba(255, 255, 255, .5) ;
+    margin-bottom: 48px;
+
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.titulo01{
+    font-family: 'Staatliches', cursive;
+    font-size: 64px;
+    font-weight: 300;
+    color: white;
+    margin-top: -40px;
+    
+}
+.conteudo-imagem{
+    width: 27%;
+    margin-top: 10px;
+}
+.titulo02{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, .7);
+    font-weight: 500;
+    width: 500px;
+}
+.botao{
+    background-color: rgba(255, 115, 0, 0.863);
+    width: 200px;
+    height: 70px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.botao:hover{
+    background-color: rgba(255, 115, 0, 0.521);
+    text-decoration: underline 0.3px;
+    
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    margin-top: 48px;
+}
+.titulo03{
+    padding-top: 15px;
+    font-family: 'Staatliches', cursive;
+    font-weight: 300;
+    color: white;
+    font-size: 50px;
+}
+.paragrafo{
+    margin: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, .7);
+    font-weight: 500;
+    text-align: left;
+}
+.rodape{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    border-top:.5px solid rgba(255, 255, 255, .5);
+    padding-top: 30px;
+}
+.linkrodape{
+    color: rgba(255, 115, 0, 0.863);
+    font-size: 25px;
+    font-weight: 300;
+}
+.linkrodape:hover{
+    background-color: rgba(255, 115, 0, 0.521);
+    text-decoration: underline 0.3px black;
+    color: black;
+    font-weight: 500;
+}
+@media screen and (max-width: 768px){
+    .conteudo-principal, .titulo01{
+        width: 100%;
+        padding: 0;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .conteudo-imagem{
+        width: 50%;
+    }   
+}
+@media screen and (max-width: 600px){
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        
+    }
+    .cabecalho-imagem{
+        width: 200px;
+    }
+}

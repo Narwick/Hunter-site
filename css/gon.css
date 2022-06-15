@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: url('imagens/background01.jpg');
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+.cabecalho-imagem{
+    width: 200px;
+    
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 10px;
+}
+.cabecalho-item{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400; 
+    color: white;
+    font-size: 23px;
+    padding: 8px;
+}
+.cabecalho-item:hover{
+    background-color: #606060;
+    text-decoration: underline .3px;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.titulo01{
+    font-family: 'Staatliches', cursive;
+    font-size: 64px;
+    font-weight: 300;
+    color: white;
+    margin-top: -40px;
+    
+}
+.gon-image{
+    
+    width: 27%;
+    margin-top: 10px;
+}
+.titulo02{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, .7);
+    font-weight: 500;
+    width: 500px;
+}
+.tabelagon{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: #606060 1px solid;
+    padding: 0px;
+    height: 500px;
+    
+}
+.tabela{
+    border-top: none;
+    padding-top: 10px;
+}
+
+.linha{
+padding: 0px;
+font-family: 'Open Sans Condensed', sans-serif;
+color: white;
+height: 10px;
+}
+
+.titulotabela{
+    background-color: rgb(26, 97, 34);
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    border: rgba(255, 255, 255, .5);
+}
+.ce{
+    background-color: rgb(46, 154, 48);
+    border: 1px solid #606060;
+    
+}
+.cd{
+    background-color: rgba(255, 255, 255, .3);
+    border: 1px solid #606060;
+}
+section{
+    border-top: 1px  solid rgba(255, 255, 255, .5);
+    margin-top: 10px;
+   
+}
+
+.rodape{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    border-top:.5px solid rgba(255, 255, 255, .5);
+    padding-top: 30px;
+}
+.linkrodape{
+    color: rgba(255, 115, 0, 0.863);
+    font-size: 25px;
+    font-weight: 300;
+}
+.linkrodape:hover{
+    background-color: rgba(255, 115, 0, 0.521);
+    text-decoration: underline 0.3px black;
+    color: black;
+    font-weight: 500;
+}
+
+
+
